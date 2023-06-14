@@ -56,3 +56,31 @@
 .description p {
     line-height: 1.4rem;
 }
+
+@media (max-width: 768px) {
+    .movie-page {
+        padding: 0 1rem;
+    }
+
+    .movie-card img {
+        max-width: 400px;
+    }
+
+    .movie-page .movie-card h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-page {
+        padding: 0 1rem;
+    }
+
+    .movie-card img {
+        max-width: 300px;
+    }
+
+    .movie-page .movie-card h2 {
+        font-size: 1.5rem;
+    }
+}

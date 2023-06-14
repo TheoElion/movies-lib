@@ -40,3 +40,47 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media (max-width: 1024px) {
+    #navbar {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    #navbar input {
+        width: 130px;
+        padding: 0.1rem 0.4rem;
+    }
+
+    #navbar form button {
+        font-size: 1.2rem;
+    }
+
+    #navbar h2 a {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    #navbar input {
+        width: 115px;
+        padding: 0.1rem 0.4rem;
+    }
+
+    #navbar form button {
+        font-size: 1rem;
+    }
+
+    #navbar h2 a {
+        font-size: 1.2rem;
+    }
+}
